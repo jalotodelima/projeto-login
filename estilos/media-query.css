@@ -7,40 +7,18 @@
     
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
-        background-position: left top;
-        background-size: cover;
     }
 
     section#login > div#form {
         float: right;
         width: 70%;
-        text-align: center;
-    }
-
-    input#usuario, input#senha {
-        width: 400px;
-        height: 30px;
-        border-color: #5f2c82;
-    }
-
-    input#senha {
-        margin-bottom: 05px;
-    }
-
-    input#btn, input#btn2 {
-        width: 405px;
-        margin-top: 10px;
-        margin: auto;
-    }
-
-    input#btn {
-        margin-bottom: 5px;
     }
 }
 
@@ -50,34 +28,24 @@
     }
     
     section#login {
-        width: 990px;
-        text-align: center;
+        width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+        background-position: center center;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
     }
 
-    input#usuario, input#senha {
-        width: 400px;
-        height: 30px;
-        border-color: #5f2c82;
+    div#form > p {
+        margin: 20px 0px;
     }
-
-    input#senha {
-        margin-bottom: 5px;
-    }
-
-    input#btn, input#btn2 {
-        width: 405px;
-        margin-top: 10px;
-        margin: auto;
     }
 }

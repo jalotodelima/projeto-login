@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: left top;
+        background-size: cover;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 70%;
+        text-align: center;
+    }
+
+    input#usuario, input#senha {
+        width: 400px;
+        height: 30px;
+        border-color: #5f2c82;
+    }
+
+    input#senha {
+        margin-bottom: 05px;
+    }
+
+    input#btn, input#btn2 {
+        width: 405px;
+        margin-top: 10px;
+        margin: auto;
+    }
+
+    input#btn {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
+    }
+    
+    section#login {
+        width: 990px;
+        text-align: center;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    input#usuario, input#senha {
+        width: 400px;
+        height: 30px;
+        border-color: #5f2c82;
+    }
+
+    input#senha {
+        margin-bottom: 5px;
+    }
+
+    input#btn, input#btn2 {
+        width: 405px;
+        margin-top: 10px;
+        margin: auto;
+    }
+}
